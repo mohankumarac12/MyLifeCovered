@@ -5,23 +5,19 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>MY LIFE COVERED&trade;</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MY LIFE COVERED&trade;</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="resources/images/favicon.ico" rel="shortcut icon">
-    
-	<link rel="stylesheet" href="resources/css/jquery-ui.css">
-	<link rel="stylesheet" href="resources/css/myLifeCoveredRGility.css">
-    
+    <link rel="stylesheet" href="resources/css/jquery-ui.css">
+    <link rel="stylesheet" href="resources/css/myLifeCoveredRGility.css">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="resources/css/mylifecovered-metcon.min.css">
-    <!-- <link rel="stylesheet" href="resources/css/nav.css"> -->
-    <link rel="stylesheet" href="resources/css/styles.css">
-    <link rel="stylesheet" href="resources/css/remodal.css">
-    <link rel="stylesheet" href="resources/css/remodal-default-theme.css">
+    <link rel="stylesheet" href="resources/css/xperience.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!--[if IE 9]>
     <link rel="stylesheet" href="resources/css/ie9.css">
     <![endif]-->
@@ -88,7 +84,7 @@
         <div id="wOverlayId" class="whiteOverlay"></div>
         <div id="loading" class="loading"><img src="resources/images/loading_spinner.svg" width="70" height="70" alt="Loading"/></div>
         <div class="remodal-bg">
-           <section id="hero" class="section-photo cover">
+           <section id="affordability_hero" class="section-photo cover">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row">

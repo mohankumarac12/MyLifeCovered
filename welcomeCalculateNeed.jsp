@@ -13,14 +13,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="resources/images/favicon.ico" rel="shortcut icon">
-    
-	<link rel="stylesheet" href="resources/css/jquery-ui.css">
-	<link rel="stylesheet" href="resources/css/myLifeCoveredRGility.css">
-    
+    <link rel="stylesheet" href="resources/css/jquery-ui.css">
+    <link rel="stylesheet" href="resources/css/myLifeCoveredRGility.css">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="resources/css/mylifecovered-metcon.min.css">
-    <link rel="stylesheet" href="resources/css/nav.css">
-	
+    <link rel="stylesheet" href="resources/css/xperience.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!--[if IE 9]>
     <link rel="stylesheet" href="resources/css/ie9.css">
     <![endif]-->
@@ -87,7 +85,7 @@
     <![endif]-->
     <div id="wOverlayId" class="whiteOverlay"></div>
 	<div id="loading" class="loading"><img src="resources/images/loading_spinner.svg" width="70" height="70" alt="Loading"/></div>
-    <section id="hero" class="section-photo cover text-center">
+    <section id="calculateneed_hero" class="section-photo cover text-center">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
