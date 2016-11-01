@@ -138,10 +138,10 @@
                                 <a href="misconceptions.do">12 Common Misconceptions</a>
                             </li>
                             <li>
-                                <a href="#">Fitness for Life</a>
+                                <a href="blog.mylifecovered.net/category/fitness-for-life">Fitness for Life</a>
                             </li>
                             <li>
-                                <a href="#">Life Prepared</a>
+                                <a href="blog.mylifecovered.net/category/life-prepared">Life Prepared</a>
                             </li>
                         </ul>
                         <a href="#" id="open_menu">
