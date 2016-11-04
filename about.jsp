@@ -24,6 +24,7 @@
 							href="http://www.tworiversagency.com" target="_blank"
 							class="secondary">Two Rivers Agency</a>
 					</p>
+					<p>Visitors interested in talking with an agent over the phone, are transferred to our partner, Health IQ, to provide this service and transact the application process for the appropriate carrier’s Term Life product.</p>
 				</div>
 			</div>
 		</div>
