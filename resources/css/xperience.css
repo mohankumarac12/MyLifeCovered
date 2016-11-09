@@ -34,6 +34,7 @@ body {
     body form#original-quote-form div.overlay {
       display: none; }
   body div.background-wrap {
+    position: relative;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover; }
