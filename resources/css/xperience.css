@@ -122,7 +122,6 @@ body {
             margin: 0;
             padding: 0; } }
         body section#top-header div.container div.row div.col-md-12 a.open-home-page-copy {
-          line-height: 1;
           float: left;
           width: 250px;
           padding: 0 0 0 20px !important; }
@@ -133,9 +132,12 @@ body {
           body section#top-header div.container div.row div.col-md-12 a.open-home-page-copy img.logo {
             width: 100%;
             height: auto; }
-          @media (max-width: 768px) {
-            body section#top-header div.container div.row div.col-md-12 a.open-home-page-copy span.logo-phno {
-              font-size: 15px; } }
+          body section#top-header div.container div.row div.col-md-12 a.open-home-page-copy span.logo-phno {
+            display: block;
+            margin-top: -8px; }
+            @media (max-width: 768px) {
+              body section#top-header div.container div.row div.col-md-12 a.open-home-page-copy span.logo-phno {
+                font-size: 15px; } }
         body section#top-header div.container div.row div.col-md-12 ul#top_nav_menu {
           display: flex !important;
           float: right;
@@ -1529,9 +1531,11 @@ body {
       body footer div.container div.row div.col-md-6 {
         width: auto; }
         body footer div.container div.row div.col-md-6:first-of-type {
+          width: calc(100% - 300px);
           margin-top: 25px; }
           @media (max-width: 1200px) {
             body footer div.container div.row div.col-md-6:first-of-type {
+              width: 100%;
               margin-top: 0; } }
         @media (max-width: 1200px) {
           body footer div.container div.row div.col-md-6 {
@@ -1565,10 +1569,14 @@ body {
             padding-bottom: 0; }
         body footer div.container div.row div.col-md-6 ul {
           display: flex;
+          width: 100%;
           list-style: none;
           -webkit-padding-start: 0;
-          justify-content: center;
+          justify-content: flex-start;
           align-items: center; }
+          @media (max-width: 1200px) {
+            body footer div.container div.row div.col-md-6 ul {
+              justify-content: center; } }
           @media (max-width: 995px) {
             body footer div.container div.row div.col-md-6 ul {
               flex-direction: column; } }
@@ -1578,6 +1586,7 @@ body {
             body footer div.container div.row div.col-md-6 ul li {
               margin: 0; } }
           body footer div.container div.row div.col-md-6 ul li a {
+            font-size: 15px;
             transition: all .3s ease;
             border-top: 1px solid transparent;
             border-bottom: 1px solid transparent; }
