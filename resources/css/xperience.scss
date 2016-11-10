@@ -694,13 +694,9 @@ body {
             }
         }
         &.main-section {
-            padding: 150px 0;
-            // border-top: 2px solid $lightgrey;
-            @media (max-width: 768px) {
-                padding: 100px 0;
-            }
+            padding: 100px 0;
             div.overlay {
-                background: $midgrey !important;
+                background: $grey !important;
             }
             div.container {
                 div.row {

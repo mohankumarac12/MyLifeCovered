@@ -549,12 +549,9 @@ body {
           body section#red-banner p {
             font-size: 14px; } }
     body section.main-section {
-      padding: 150px 0; }
-      @media (max-width: 768px) {
-        body section.main-section {
-          padding: 100px 0; } }
+      padding: 100px 0; }
       body section.main-section div.overlay {
-        background: #3b3c3e !important; }
+        background: #303032 !important; }
       body section.main-section div.container div.row div.margin-bottom-m {
         margin-bottom: 35px; }
       body section.main-section div.container div.row div.col-md-5 h2 {
