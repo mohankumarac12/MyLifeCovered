@@ -94,9 +94,21 @@ body {
             }
         }
         &#landing {
-            background-image: url('../images/deadlift-2.jpg');
+            background-image: url('../images/deadlift-color.jpg');
             @media (max-width: 530px) {
                 background-position: 70% 100%;
+            }
+            &:after {
+                position: absolute;
+                z-index: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                content: '';
+                background: black;
+                background: rgba(40, 44, 49, .5);
             }
             div.overlay {
                 display: none;
@@ -132,6 +144,71 @@ body {
                             width: 100%;
                             max-width: 800px;
                             margin: 0 auto 40px;
+                        }
+                    }
+                    div.form-wrapper {
+                        max-width: 650px;
+                        div.primary-container {
+                            form {
+                                select {
+                                    width: 180px;
+
+                                    appearance: menulist;
+                                    &:nth-of-type(2) {
+                                        margin: 0 5px;
+                                    }
+                                    @media (max-width: 768px) {
+                                        font-size: 15px;
+                                        width: 135px;
+                                    }
+                                    @media (max-width: 590px) {
+                                        display: block;
+                                        width: 100%;
+                                        max-width: 180px;
+                                        margin: 0 auto 10px !important;
+                                    }
+                                }
+                                p#initialQuote {
+                                    line-height: 1.7;
+                                    margin: 20px 0 0;
+                                    @media (max-width: 369px) {
+                                        line-height: 2;
+                                    }
+                                    span.quoted-amount {
+                                        font-size: 20px;
+                                        line-height: 1;
+                                        display: inline-block;
+                                        padding: 4px 6px;
+                                        text-align: center;
+                                        color: $darkgrey;
+                                        border-radius: 5px;
+                                        background: $lightgrey;
+                                        &#totalCoverage {
+                                            width: 90px;
+                                            @media (max-width: 768px) {
+                                                width: 70px;
+                                            }
+                                        }
+                                        &#totalSavings {
+                                            width: 48px;
+                                            @media (max-width: 768px) {
+                                                width: 37px;
+                                            }
+                                        }
+                                        @media (max-width: 768px) {
+                                            font-size: 15px;
+                                            padding: 3px 5px;
+                                        }
+                                    }
+                                    sup {
+                                        font-size: 80%;
+                                        top: -.4em;
+                                    }
+                                }
+                                input.btn {
+                                    margin-top: 30px;
+                                }
+                            }
                         }
                     }
                 }
@@ -354,14 +431,14 @@ body {
             }
         }
         &.cover {
-            padding-top: 250px;
+            padding-top: 200px;
             padding-bottom: 125px;
             @media (max-width: 768px) {
-                padding-top: 188px;
+                padding-top: 150px;
                 padding-bottom: 94px;
             }
             @media (max-width: 500px) {
-                padding-top: 141px;
+                padding-top: 100px;
                 padding-bottom: 70px;
             }
             div.col-md-12 {
@@ -591,6 +668,106 @@ body {
                 max-width: 1130px;
             }
         }
+        &#affordability_hero {
+            div.container {
+                div.row {
+                    div.col-md-12 {
+                        h1 {
+                            font-size: 48px;
+                            font-weight: 700 !important;
+                            line-height: 1.2;
+
+                            @include Lato();
+                        }
+                        div.form-wrapper {
+                            max-width: 775px;
+                            background: transparent;
+                            box-shadow: none;
+                            div.primary-container {
+                                padding: 24px 40px 30px;
+                                border: none;
+                                border-radius: 10px 10px 0 0;
+                                background: rgba(black,.78);
+                                form {
+                                    margin: 0;
+                                    div.select-wrapper {
+                                        text-align: left;
+                                        &:nth-of-type(2) {
+                                            margin: 0 28px;
+                                        }
+                                        @media (max-width: 620px) {
+                                            width: 100%;
+                                            margin: 0 0 10px !important;
+                                        }
+                                        &:after {
+                                            font-size: 12px;
+                                            top: calc(50% + 18px);
+                                            right: 12px;
+                                            content: '\f04b';
+                                            transform: translateY(-50%) rotate(90deg);
+                                            color: #828282;
+                                        }
+                                        label {
+                                            font-size: 21px;
+                                            font-weight: 700;
+                                            display: block;
+                                        }
+                                        select {
+                                            font-size: 22px;
+                                            line-height: 1.2;
+                                            display: block;
+                                            width: auto;
+                                            height: 41.5px;
+                                            margin: 0;
+                                            // min-width: 110px;
+                                            padding: 0 38px 0 11px;
+                                            color: #2b2b2b;
+
+                                            @include Lato();
+                                            appearance: none;
+                                            @media (max-width: 620px) {
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            div.secondary-container {
+                                padding: 15px 40px;
+                                border-radius: 0 0 10px 10px;
+                                background: rgba($grey, .78);
+                                p#initialQuote {
+                                    font-size: 21px;
+                                    line-height: 1.952380952380952;
+                                    margin: 0;
+                                    span.quoted-amount {
+                                        font-weight: 700;
+                                        line-height: 1;
+                                        display: inline-block;
+                                        padding: 5px 8px 7px;
+                                        background: black;
+                                        &#totalCoverage {
+                                            width: 130px;
+                                        }
+                                        &#totalSavings {
+                                            width: 68px;
+                                        }
+                                    }
+                                    sup {
+                                        font-size: 80%;
+                                        top: -.4em;
+                                    }
+                                }
+                            }
+                            div.gobutton-container {
+                                width: 100%;
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
         &#calculateneed_hero {
             p.heading {
                 br {
@@ -735,6 +912,8 @@ body {
             }
         }
         &#landing_hero {
+            position: relative;
+            z-index: 1;
             @media (max-width: 768px) {
                 padding-top: 218px;
                 padding-bottom: 143px;
@@ -1249,6 +1428,8 @@ body {
             }
         }
         &#landing_tiles {
+            position: relative;
+            z-index: 1;
             padding: 0 20px 75px;
             @media (max-width: 768px) {
                 padding: 0 20px 56px;
