@@ -1,7 +1,7 @@
 <%@include file="header.jsp" %>
 
 <div id="blood" class="background-wrap child-landing">
-	<section id="blood_hero" class="cover text-center">
+    <section id="blood_hero" class="cover text-center">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -14,24 +14,21 @@
         </div>
     </section>
     <section id="blood_tiles" class="tiles child-tiles">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-12">
-    				<a href="blood.do" id="blood" class="tile active">
-    					<h3>Athletic Blood Profile</h3>
-    				</a>
-    				<a href="#" id="genome" class="tile">
-    					<h3>Genome Profile of an Athlete</h3>
-    				</a>
-    				<a href="life-help.do" id="life" class="tile">
-    					<h3>Life Insurance for the Healthy</h3>
-    				</a>
-    				<a href="#" id="emergency" class="tile">
-    					<h3>Emergency Planning</h3>
-    				</a>
-    			</div>
-    		</div>
-    	</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="blood.do" id="blood" class="tile active">
+                        <h3>Athletic <br>Blood Profile</h3>
+                    </a>
+                    <a href="life-help.do" id="life" class="tile">
+                        <h3>Term Life <br>Insurance</h3>
+                    </a>
+                    <a href="everplans.do" id="emergency" class="tile">
+                        <h3>Life & Legacy <br>Planning</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 

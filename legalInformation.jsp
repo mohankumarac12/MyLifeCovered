@@ -72,7 +72,7 @@
 					<p>
 						For additional information regarding third-party ratings,
 						including the scope and extent of such ratings, <a
-							href="#financial-modal">click here</a>.
+							href="financialRatings.do">click here</a>.
 					</p>
 					<p>With respect to application requests, the application
 						request form is not an application, but rather a request for an

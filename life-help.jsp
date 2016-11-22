@@ -33,18 +33,21 @@
         </div>
     </section>
     <section id="life_help_tiles" class="tiles child-tiles">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-12">
-    				<a href="blood.do" id="blood" class="tile">
-    					<h3>Athletic Blood Profile</h3>
-    				</a>
-    				<a href="life-help.do" id="life" class="tile active">
-    					<h3>Life Insurance for the Healthy</h3>
-    				</a>
-    			</div>
-    		</div>
-    	</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="blood.php" id="blood" class="tile">
+                        <h3>Athletic <br>Blood Profile</h3>
+                    </a>
+                    <a href="life-help.php" id="life" class="tile active">
+                        <h3>Term Life <br>Insurance</h3>
+                    </a>
+                    <a href="everplans.php" id="emergency" class="tile">
+                        <h3>Life & Legacy <br>Planning</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 

@@ -11,54 +11,63 @@
                 </div>
             </div>
             <div class="row">
-            	<div class="col-md-12">
-            		<div class="form-wrapper">
-            			<div class="primary-container">
-            				<h4>I know how much I can afford</h4>
-            				<p>See our full <a href="calculator.do">Calculator</a>.</p>
-            				<form>
-            						<select name="coverageAmount" id="coverageAmount" class="coverageamt-select">
-                                    <option value="">Amount</option>
-                                    <option value="25">$25</option>
-                                    <option value="30">$30</option>
-                                    <option value="35">$35</option>
-                                    <option value="40">$40</option>
-                                    <option value="45">$45</option>
-                                    <option value="50">$50</option>
-                                    <option value="60">$60</option>
-                                    <option value="70">$70</option>
-                                    <option value="80">$80</option>
-                                    <option value="90">$90</option>
-                                    <option value="100">$100</option>
+                <div class="col-md-12">
+                    <div class="form-wrapper">
+                        <div class="primary-container">
+                            <h4>I know how much I can afford</h4>
+                            <p>See our full <a href="calculator.php">Calculator</a>.</p>
+                            <form>
+                                <select name="affordablePremium" id="affordablePremium" class="coverageamt-select afford-dropdown">
+                                    <!-- <option value="">Amount</option> -->
+                                    <option value="twentyfive">$25 per month</option>
+                                    <option value="fifty">$50 per month</option>
+                                    <option value="onehundred">$100 per month</option>
                                 </select>
-            					<span>/ month</span>
-            					<input type="submit" value="Go">
-            				</form>
-            			</div>
-            			<a href="life-help.do" class="secondary-container">
-            				<h5>Help Me Determine <br>My Coverage</h5>
-            			</a>
-            			<a href="life-need.do" class="secondary-container">
-            				<h5>I Know How <br>Much I Need</h5>
-            			</a>
-            		</div>
-            	</div>
+                                <select name="affordableAge" id="affordableAge" class="coverageamt-select afford-dropdown">
+                                    <!-- <option value="">Age</option> -->
+                                    <option value="twentyfive">25-29 years old</option>
+                                    <option value="thirty">30-34 years old</option>
+                                    <option value="thirtyfive">35-39 years old</option>
+                                    <option value="forty">40-44 years old</option>
+                                    <option value="fortyfive">45-49 years old</option>
+                                    <option value="fifty">50+ years old</option>
+                                </select>
+                                <select name="affordableGender" id="affordableGender" class="coverageamt-select afford-dropdown">
+                                    <!-- <option value="">Gender</option> -->
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                                <p id="initialQuote">Based on the above, you may qualify for about <span id="totalCoverage" class="quoted-amount">$550,000</span> in coverage, and save close to <span id="totalSavings" class="quoted-amount">$19</span> per month over standard premium rates.<sup>*</sup></p>
+                                <input type="button" class="btn btn-primary" value="Start My Quote" id="main-affordable-form" wpvalue="continue" onclick="return validatePremiumMlc();">
+                            </form>
+                        </div>
+                        <a href="life-help.php" class="secondary-container">
+                            <h5>Help Me Determine <br>My Coverage</h5>
+                        </a>
+                        <a href="life-need.php" class="secondary-container">
+                            <h5>I Know How <br>Much I Need</h5>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section id="life_help_tiles" class="tiles child-tiles">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-12">
-    				<a href="blood.do" id="blood" class="tile">
-    					<h3>Athletic Blood Profile</h3>
-    				</a>
-    				<a href="life-help.do" id="life" class="tile active">
-    					<h3>Life Insurance for the Healthy</h3>
-    				</a>
-    			</div>
-    		</div>
-    	</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="blood.php" id="blood" class="tile">
+                        <h3>Athletic <br>Blood Profile</h3>
+                    </a>
+                    <a href="life-help.php" id="life" class="tile active">
+                        <h3>Term Life <br>Insurance</h3>
+                    </a>
+                    <a href="everplans.php" id="emergency" class="tile">
+                        <h3>Life & Legacy <br>Planning</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 

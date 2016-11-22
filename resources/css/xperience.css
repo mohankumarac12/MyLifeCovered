@@ -56,7 +56,7 @@ body {
       @media (max-width: 530px) {
         body div.background-wrap#landing {
           background-position: 70% 100%; } }
-      body div.background-wrap#landing:after {
+      body div.background-wrap#landing:before {
         position: absolute;
         z-index: 0;
         top: 0;
@@ -74,6 +74,10 @@ body {
     body div.background-wrap#blood {
       background-image: url("../images/weightbelt.jpg"); }
       body div.background-wrap#blood div.overlay {
+        display: none; }
+    body div.background-wrap#everplans {
+      background-image: url("../images/kettlebell.jpg"); }
+      body div.background-wrap#everplans div.overlay {
         display: none; }
     body div.background-wrap.life-landing {
       background-image: url("../images/pullup.jpg");
@@ -172,7 +176,7 @@ body {
       padding: 30px 0; }
       @media (max-width: 768px) {
         body section#top-header {
-          padding: 20px 15px; } }
+          padding: 20px 0 15px 15px; } }
       @media (max-width: 768px) {
         body section#top-header div.container {
           margin: 0;
@@ -293,7 +297,7 @@ body {
               padding: 15px; } }
   @media (max-width: 1200px) and (max-width: 768px) {
     body section#top-header div.container div.row div.col-md-12 a#open_menu {
-      margin-right: -15px; } }
+      margin-right: 0; } }
           @media (max-width: 1200px) {
               body section#top-header div.container div.row div.col-md-12 a#open_menu:hover {
                 color: white; }
@@ -766,8 +770,7 @@ body {
             padding: 17px 34px;
             letter-spacing: .225px; } }
     body section#landing_hero {
-      position: relative;
-      z-index: 1; }
+      position: relative; }
       @media (max-width: 768px) {
         body section#landing_hero {
           padding-top: 218px;
@@ -1144,32 +1147,27 @@ body {
           -webkit-box-align: stretch;
               -ms-flex-align: stretch;
                   align-items: stretch; }
-          @media (max-width: 620px) {
+          @media (max-width: 685px) {
             body section.tiles div.container div.row div.col-md-12 {
               -ms-flex-wrap: wrap;
                   flex-wrap: wrap; } }
           body section.tiles div.container div.row div.col-md-12 a.tile {
             display: block;
             float: left;
-            width: 50%;
+            width: calc(100% / 3);
             padding: 34px;
             -webkit-transition: all .3s ease;
             transition: all .3s ease;
             text-align: center;
             background: #222223; }
-            @media (max-width: 620px) {
+            @media (max-width: 685px) {
               body section.tiles div.container div.row div.col-md-12 a.tile {
                 float: none;
                 padding: 34px 70px; } }
-            @media (max-width: 530px) {
-              body section.tiles div.container div.row div.col-md-12 a.tile {
-                padding: 34px 60px; } }
-            @media (max-width: 500px) {
+            @media (max-width: 685px) {
               body section.tiles div.container div.row div.col-md-12 a.tile {
                 width: 100%;
                 padding: 34px; } }
-            body section.tiles div.container div.row div.col-md-12 a.tile#genome, body section.tiles div.container div.row div.col-md-12 a.tile#emergency {
-              display: none; }
             body section.tiles div.container div.row div.col-md-12 a.tile:hover, body section.tiles div.container div.row div.col-md-12 a.tile.active {
               opacity: 1;
               color: white;
@@ -1181,24 +1179,24 @@ body {
               margin: 0;
               letter-spacing: .3px;
               color: white; }
-              @media (max-width: 768px) {
+              @media (max-width: 840px) {
                 body section.tiles div.container div.row div.col-md-12 a.tile h3 {
                   font-size: 23px;
-                  letter-spacing: .225px; }
-                  body section.tiles div.container div.row div.col-md-12 a.tile h3 br {
-                    display: none; } }
+                  letter-spacing: .225px; } }
+              @media (max-width: 685px) {
+                body section.tiles div.container div.row div.col-md-12 a.tile h3 br {
+                  display: none; } }
             body section.tiles div.container div.row div.col-md-12 a.tile p {
               font-size: 18px;
               padding-top: 13px;
               letter-spacing: .2px; }
-              @media (max-width: 768px) {
+              @media (max-width: 840px) {
                 body section.tiles div.container div.row div.col-md-12 a.tile p {
                   font-size: 14px;
                   padding-top: 10px;
                   letter-spacing: .15px; } }
     body section#landing_tiles {
       position: relative;
-      z-index: 1;
       padding: 0 20px 75px; }
       @media (max-width: 768px) {
         body section#landing_tiles {
@@ -1207,25 +1205,25 @@ body {
         width: 100%;
         max-width: 1310px; }
         body section#landing_tiles div.container div.col-md-12 {
-          max-width: 580px;
+          max-width: 885px;
           margin: 0 auto; }
           body section#landing_tiles div.container div.col-md-12 a.tile {
             width: 275px;
             margin-bottom: 5px;
             background: #3b3c3e;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
-            @media (max-width: 620px) {
+            @media (max-width: 685px) {
               body section#landing_tiles div.container div.col-md-12 a.tile {
                 width: 100%;
                 max-width: 350px;
                 margin-bottom: 20px; } }
-            body section#landing_tiles div.container div.col-md-12 a.tile#blood {
+            body section#landing_tiles div.container div.col-md-12 a.tile#blood, body section#landing_tiles div.container div.col-md-12 a.tile#life {
               margin-right: 4.6875%; }
               @media (max-width: 768px) {
-                body section#landing_tiles div.container div.col-md-12 a.tile#blood {
+                body section#landing_tiles div.container div.col-md-12 a.tile#blood, body section#landing_tiles div.container div.col-md-12 a.tile#life {
                   margin-right: 20px; } }
-              @media (max-width: 620px) {
-                body section#landing_tiles div.container div.col-md-12 a.tile#blood {
+              @media (max-width: 685px) {
+                body section#landing_tiles div.container div.col-md-12 a.tile#blood, body section#landing_tiles div.container div.col-md-12 a.tile#life {
                   margin-right: 0; } }
             body section#landing_tiles div.container div.col-md-12 a.tile h3 {
               padding-bottom: 15px;
@@ -1233,23 +1231,34 @@ body {
               @media (max-width: 768px) {
                 body section#landing_tiles div.container div.col-md-12 a.tile h3 {
                   padding-bottom: 11px; } }
-    body section.child-tiles div.container div.row div.col-md-12 a.tile:hover {
-      opacity: 1;
-      color: white;
-      background: #303032 !important; }
-      body section.child-tiles div.container div.row div.col-md-12 a.tile:hover h3 {
-        border-bottom: 2px solid #ff3e3e; }
-    body section.child-tiles div.container div.row div.col-md-12 a.tile h3 {
-      display: inline;
-      -webkit-transition: all .3s ease;
-      transition: all .3s ease;
-      border-bottom: 2px solid transparent; }
-    body section.child-tiles div.container div.row div.col-md-12 a.tile.active:hover {
-      opacity: 1;
-      color: white;
-      background: #ff3e3e !important; }
-      body section.child-tiles div.container div.row div.col-md-12 a.tile.active:hover h3 {
-        border-bottom: 2px solid #ff3e3e; }
+    body section.child-tiles div.container div.row div.col-md-12 a.tile {
+      border-right: 1px solid #3b3c3e; }
+      @media (max-width: 685px) {
+        body section.child-tiles div.container div.row div.col-md-12 a.tile {
+          border-right: 0;
+          border-bottom: 1px solid #3b3c3e; } }
+      body section.child-tiles div.container div.row div.col-md-12 a.tile:last-of-type {
+        border-right: 0; }
+      body section.child-tiles div.container div.row div.col-md-12 a.tile:hover {
+        opacity: 1;
+        color: white;
+        background: #303032 !important; }
+        body section.child-tiles div.container div.row div.col-md-12 a.tile:hover h3 {
+          border-bottom: 2px solid #ff3e3e; }
+      body section.child-tiles div.container div.row div.col-md-12 a.tile h3 {
+        display: inline;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        border-bottom: 2px solid transparent; }
+        @media (min-width: 1250px) {
+          body section.child-tiles div.container div.row div.col-md-12 a.tile h3 br {
+            display: none; } }
+      body section.child-tiles div.container div.row div.col-md-12 a.tile.active:hover {
+        opacity: 1;
+        color: white;
+        background: #ff3e3e !important; }
+        body section.child-tiles div.container div.row div.col-md-12 a.tile.active:hover h3 {
+          border-bottom: 2px solid #ff3e3e; }
     body section#quote-page {
       padding: 150px 0 0; }
       body section#quote-page div.container {

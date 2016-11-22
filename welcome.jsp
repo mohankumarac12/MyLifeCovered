@@ -47,7 +47,7 @@
     <body>
     <%@include file="header.jsp" %>
 <div id="landing" class="background-wrap">
-	<section id="landing_hero" class="cover text-center">
+    <section id="landing_hero" class="cover text-center">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -59,20 +59,24 @@
         </div>
     </section>
     <section id="landing_tiles" class="tiles">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-12">
-    				<a href="blood.do" id="blood" class="tile">
-    					<h3>Athletic Blood Profile</h3>
-    					<p>Knowledge is power. Learn how over 50 health markers can improve your performance.</p>
-    				</a>
-    				<a href="life-help.do" id="life" class="tile">
-    					<h3>Term Life <br>Insurance</h3>
-    					<p>Learn how your healthy and fit lifestyle could qualify you for up to 50% lower life insurance premiums.</p>
-    				</a>
-    			</div>
-    		</div>
-    	</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="blood.do" id="blood" class="tile">
+                        <h3>Athletic <br>Blood Profile</h3>
+                        <p>Knowledge is power. Learn how over 50 health markers can improve your performance.</p>
+                    </a>
+                    <a href="life-help.do" id="life" class="tile">
+                        <h3>Term Life <br>Insurance</h3>
+                        <p>Learn how your healthy and fit lifestyle could qualify you for up to 50% lower life insurance premiums.</p>
+                    </a>
+                    <a href="everplans.do" id="everplans" class="tile">
+                        <h3>Life & Legacy <br>Planning</h3>
+                        <p>Prepare yourself and your loved ones in the event anything should happen to you.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 </body>
