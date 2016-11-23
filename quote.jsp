@@ -286,7 +286,7 @@ html {
 								produced automatically.</p>
 							<p class="disclaimers-content">
 								Final rates are always subject to underwriting approval by the
-								insurance company. <a href="#">Click here</a> to better
+								insurance company. <a href="legalInformation.do">Click here</a> to better
 								understand the underwriting criteria. You have an option of
 								continuing with Two Rivers Agency and apply online, or having
 								Health IQ contact you shortly to gather additional information
@@ -294,7 +294,7 @@ html {
 								After speaking with you, Health IQ will send your customized
 								quote via email. It will weigh responses to health and lifestyle
 								questions to more accurately estimate your rate. Please read
-								through our <a href="#legal-modal">legal policy</a> to better
+								through our <a href="legalInformation.do">legal policy</a> to better
 								understand the processing and information being made available.
 								<a href="privacypolicy.do">Click here</a> for policy forms and
 								descriptions of available plans.
