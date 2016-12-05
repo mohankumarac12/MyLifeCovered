@@ -1094,9 +1094,7 @@ body {
                       letter-spacing: .15px; } }
               body section.quote div.container div.row div.col-md-12 form div.inline-checkbox {
                 font-size: 14px;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex; }
+                overflow: auto; }
                 @media (max-width: 768px) {
                   body section.quote div.container div.row div.col-md-12 form div.inline-checkbox {
                     font-size: 11px; } }
@@ -1107,6 +1105,12 @@ body {
                     body section.quote div.container div.row div.col-md-12 form div.inline-checkbox label {
                       font-size: 12px;
                       width: 16px; } }
+                body section.quote div.container div.row div.col-md-12 form div.inline-checkbox span.last-checkbox {
+                  font-size: 11px;
+                  position: relative;
+                  display: block;
+                  float: right;
+                  width: calc(100% - 21px); }
               body section.quote div.container div.row div.col-md-12 form div.text-center input[type='button'] {
                 font-size: 28px;
                 font-weight: normal;

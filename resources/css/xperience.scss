@@ -1270,7 +1270,7 @@ body {
                             }
                             div.inline-checkbox {
                                 font-size: 14px;
-                                display: flex;
+                                overflow: auto;
                                 @media (max-width: 768px) {
                                     font-size: 11px;
                                 }
@@ -1281,6 +1281,13 @@ body {
                                         font-size: 12px;
                                         width: 16px;
                                     }
+                                }
+                                span.last-checkbox {
+                                    font-size: 11px;
+                                    position: relative;
+                                    display: block;
+                                    float: right;
+                                    width: calc(100% - 21px);
                                 }
                             }
                             div.text-center {
