@@ -1858,91 +1858,80 @@ body {
   body footer {
     position: relative;
     background-color: #3b3c3e; }
-    body footer div.container div.row {
-      overflow: auto;
-      padding: 0 19px; }
-      @media (max-width: 1200px) {
-        body footer div.container div.row {
-          padding: 0;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center; } }
-      body footer div.container div.row:before, body footer div.container div.row:after {
-        display: none !important; }
-      body footer div.container div.row div.col-md-6 {
-        width: auto; }
-        body footer div.container div.row div.col-md-6:first-of-type {
-          width: calc(100% - 300px);
-          margin-top: 25px; }
-          @media (max-width: 1200px) {
-            body footer div.container div.row div.col-md-6:first-of-type {
-              width: 100%;
-              margin-top: 0; } }
-        @media (max-width: 1200px) {
-          body footer div.container div.row div.col-md-6 {
-            float: none;
-            width: 100%; } }
-        body footer div.container div.row div.col-md-6.text-right {
-          float: right;
-          width: 300px;
-          margin: 0; }
-          @media (max-width: 1200px) {
-            body footer div.container div.row div.col-md-6.text-right {
-              float: none;
-              margin: 0 auto;
-              margin-top: 10px;
-              padding-top: 20px;
-              text-align: center; } }
-          body footer div.container div.row div.col-md-6.text-right a.main_logo {
-            display: block;
-            width: 200px;
-            margin-left: 70px; }
-            @media (max-width: 1200px) {
-              body footer div.container div.row div.col-md-6.text-right a.main_logo {
-                margin: 0 auto; } }
-            body footer div.container div.row div.col-md-6.text-right a.main_logo img {
-              width: 100%; }
-          body footer div.container div.row div.col-md-6.text-right span {
-            font-size: 14px; }
-          body footer div.container div.row div.col-md-6.text-right small {
-            font-size: 13px; }
-          body footer div.container div.row div.col-md-6.text-right a.secondary {
-            padding-bottom: 0; }
-        body footer div.container div.row div.col-md-6 ul {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          width: 100%;
-          list-style: none;
-          -webkit-padding-start: 0;
-          -webkit-box-pack: start;
-              -ms-flex-pack: start;
-                  justify-content: flex-start;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center; }
-          @media (max-width: 1200px) {
-            body footer div.container div.row div.col-md-6 ul {
-              -webkit-box-pack: center;
-                  -ms-flex-pack: center;
-                      justify-content: center; } }
-          @media (max-width: 995px) {
-            body footer div.container div.row div.col-md-6 ul {
-              -webkit-box-orient: vertical;
-              -webkit-box-direction: normal;
-                  -ms-flex-direction: column;
-                      flex-direction: column; } }
-          body footer div.container div.row div.col-md-6 ul li:last-of-type {
-            margin-right: 0; }
-          @media (max-width: 995px) {
-            body footer div.container div.row div.col-md-6 ul li {
-              margin: 0; } }
-          body footer div.container div.row div.col-md-6 ul li a {
-            font-size: 15px;
-            -webkit-transition: all .3s ease;
-            transition: all .3s ease;
-            border-top: 1px solid transparent;
-            border-bottom: 1px solid transparent; }
-            body footer div.container div.row div.col-md-6 ul li a:hover, body footer div.container div.row div.col-md-6 ul li a.active {
+    body footer div.container {
+      width: 100%; }
+      body footer div.container div.row {
+        overflow: auto;
+        padding: 0 19px; }
+        body footer div.container div.row:before, body footer div.container div.row:after {
+          display: none !important; }
+        body footer div.container div.row div.col-md-12 {
+          float: none;
+          width: 100%; }
+          body footer div.container div.row div.col-md-12.sitemap {
+            width: 100%;
+            margin-top: 0; }
+          body footer div.container div.row div.col-md-12.social-icons {
+            margin: 40px 0 30px;
+            text-align: center; }
+            body footer div.container div.row div.col-md-12.social-icons a {
+              display: inline-block;
+              width: 50px;
+              height: 50px;
+              margin: 0 10px;
+              padding: 16px 0 12px;
+              -webkit-transition: all .3s ease;
+              transition: all .3s ease;
               color: white;
-              border-bottom: 1px solid white; }
+              border-radius: 5px;
+              background: #222223; }
+              body footer div.container div.row div.col-md-12.social-icons a:hover {
+                background: #ff3e3e; }
+              body footer div.container div.row div.col-md-12.social-icons a i {
+                font-size: 20px;
+                color: inherit; }
+          body footer div.container div.row div.col-md-12.text-right {
+            float: none;
+            width: 300px;
+            margin: 0 auto;
+            text-align: center; }
+            body footer div.container div.row div.col-md-12.text-right a.main_logo {
+              display: block;
+              width: 200px;
+              margin: 0 auto; }
+              body footer div.container div.row div.col-md-12.text-right a.main_logo img {
+                width: 100%; }
+            body footer div.container div.row div.col-md-12.text-right span {
+              font-size: 14px; }
+            body footer div.container div.row div.col-md-12.text-right small {
+              font-size: 13px; }
+            body footer div.container div.row div.col-md-12.text-right a.secondary {
+              padding-bottom: 0; }
+          body footer div.container div.row div.col-md-12 ul {
+            width: 100%;
+            padding: 0;
+            list-style: none;
+            text-align: center; }
+            @media (max-width: 995px) {
+              body footer div.container div.row div.col-md-12 ul {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column; } }
+            body footer div.container div.row div.col-md-12 ul li {
+              display: inline-block;
+              float: none;
+              margin: 0 10px; }
+              @media (max-width: 830px) {
+                body footer div.container div.row div.col-md-12 ul li {
+                  display: block;
+                  margin: 0; } }
+              body footer div.container div.row div.col-md-12 ul li a {
+                font-size: 15px;
+                -webkit-transition: all .3s ease;
+                transition: all .3s ease;
+                border-top: 1px solid transparent;
+                border-bottom: 1px solid transparent; }
+                body footer div.container div.row div.col-md-12 ul li a:hover, body footer div.container div.row div.col-md-12 ul li a.active {
+                  color: white;
+                  border-bottom: 1px solid white; }

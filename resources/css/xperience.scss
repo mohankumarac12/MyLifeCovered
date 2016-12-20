@@ -2136,50 +2136,52 @@ body {
         position: relative;
         background-color: $midgrey;
         div.container {
+            width: 100%;
             div.row {
                 overflow: auto;
                 padding: 0 19px;
-                @media (max-width: 1200px) {
-                    padding: 0;
-
-                    justify-content: center;
-                }
                 &:before,
                 &:after {
                     display: none !important;
                 }
-                div.col-md-6 {
-                    width: auto;
-                    &:first-of-type {
-                        width: calc(100% - 300px);
-                        margin-top: 25px;
-                        @media (max-width: 1200px) {
-                            width: 100%;
-                            margin-top: 0;
-                        }
-                    }
-                    @media (max-width: 1200px) {
-                        float: none;
+                div.col-md-12 {
+                    float: none;
+                    width: 100%;
+                    &.sitemap {
                         width: 100%;
+                        margin-top: 0;
+                    }
+                    &.social-icons {
+                        margin: 40px 0 30px;
+                        text-align: center;
+                        a {
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            margin: 0 10px;
+                            padding: 16px 0 12px;
+                            transition: all .3s ease;
+                            color: white;
+                            border-radius: 5px;
+                            background: $darkgrey;
+                            &:hover {
+                                background: $red;
+                            }
+                            i {
+                                font-size: 20px;
+                                color: inherit;
+                            }
+                        }
                     }
                     &.text-right {
-                        float: right;
+                        float: none;
                         width: 300px;
-                        margin: 0;
-                        @media (max-width: 1200px) {
-                            float: none;
-                            margin: 0 auto;
-                            margin-top: 10px;
-                            padding-top: 20px;
-                            text-align: center;
-                        }
+                        margin: 0 auto;
+                        text-align: center;
                         a.main_logo {
                             display: block;
                             width: 200px;
-                            margin-left: 70px;
-                            @media (max-width: 1200px) {
-                                margin: 0 auto;
-                            }
+                            margin: 0 auto;
                             img {
                                 width: 100%;
                             }
@@ -2195,24 +2197,19 @@ body {
                         }
                     }
                     ul {
-                        display: flex;
                         width: 100%;
+                        padding: 0;
                         list-style: none;
-
-                        -webkit-padding-start: 0;
-                        justify-content: flex-start;
-                        align-items: center;
-                        @media (max-width: 1200px) {
-                            justify-content: center;
-                        }
+                        text-align: center;
                         @media (max-width: 995px) {
                             flex-direction: column;
                         }
                         li {
-                            &:last-of-type {
-                                margin-right: 0;
-                            }
-                            @media (max-width: 995px) {
+                            display: inline-block;
+                            float: none;
+                            margin: 0 10px;
+                            @media (max-width: 830px) {
+                                display: block;
                                 margin: 0;
                             }
                             a {
