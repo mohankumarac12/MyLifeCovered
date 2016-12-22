@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1>You train to be prepared. <br>Be prepared for the unknown.</h1>
-                    <p>Create a secure, digital archive of everything your loved ones will need should something happen to you.</p>
+                    <p>Create an Everplan, a secure, digital archive of everything your loved ones will need should something happen to you.</p>
                     <a href="http://try.everplans.com/ilp/partners/mylifecovered" class="btn btn-primary">Try It Free</a>
                 </div>
             </div>

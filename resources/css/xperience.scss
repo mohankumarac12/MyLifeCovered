@@ -300,6 +300,7 @@ body {
                             display: flex !important;
                             float: right;
                             width: auto !important;
+                            margin-left: auto;
                             list-style-type: none;
                             text-align: center !important;
 
@@ -315,6 +316,7 @@ body {
                                 flex-direction: column;
                                 width: 100%;
                                 height: 100vh;
+                                margin: 0;
                                 padding: 25px;
                                 transition: all .5s ease;
                                 transform: translateY(-100vh);
@@ -360,6 +362,7 @@ body {
                         }
                         a#open_menu {
                             display: none;
+                            margin-left: auto;
                             @media (max-width: 1200px) {
                                 display: block;
                                 float: right;
@@ -1458,7 +1461,7 @@ body {
                         }
                         &#blood,
                         &#life {
-                            margin-right: 4.6875%;
+                            margin-right: 3.449%;
                             @media (max-width: 768px) {
                                 margin-right: 20px;
                             }
