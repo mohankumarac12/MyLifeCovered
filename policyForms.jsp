@@ -378,80 +378,20 @@
 					<p>Prudential Life Insurance Company: 751 Broad Street, 23rd
 						Floor, Newark, NJ 07102.</p>
 					<p>
-						<strong>Transamerica Life Insurance Company -&nbsp;</strong>Trendsetter&reg;
-						Super 10, Super 15, Super 20, Super 25, and Super 30 (Policy Form
-						Nos. 1-306 11-107, 1-305 11-107, 1-304 11-107, 1-303 11-107, and
-						1-344 11-107) are term life insurance policies issued by
-						Transamerica Life Insurance Company, Cedar Rapids, IA 52499.&nbsp;<strong>Premiums
-							increase annually starting in year 11 for the 10-year policy, in
-							year 16 for the 15-year policy, in year 21 for the 20-year
-							policy, in year 26 for the 25-year policy, and in year 31 for the
-							30-year policy</strong><em>.</em>&nbsp;Policy forms and numbers may vary,
-						and these policies may not be available in all jurisdictions.
-						Insurance eligibility and premiums are subject to underwriting. In
-						most states, in the event of suicide during the first two policy
-						years, death benefits are limited only to the return of premiums
-						paid. In Missouri, suicide is no defense to payment of benefits
-						unless the Company can show that the insured intended suicide at
-						the time of application for coverage.
-					</p>
-					<p>Transamerica Life Insurance Company: 4333 Edgewood Road NE,
-						Cedar Rapids, IA 52499.</p>
-					<p>
-						<strong>Transamerica Life Insurance Company -&nbsp;</strong>Trendsetter&reg;
-						ROP 30 (Policy Form No. 1-230 11-106 and Group Certificate No.
-						2-230 36-106 for certificates issued under a group policy issued
-						to the Rhode Island National Consumer Protection Trust III) is a
-						term life insurance policy issued by Transamerica Life Insurance
-						Company, Cedar Rapids, IA 52499.&nbsp;<strong>Premiums
-							are guaranteed level for the first 30 years, then premiums
-							increase annually starting in year 31.</strong>&nbsp;Policy form and
-						number may vary, and this policy may not be available in all
-						jurisdictions. Insurance eligibility and premiums are subject to
-						underwriting. In most states, in the event of suicide during the
-						first two policy years, death benefits are limited only to the
-						return of premiums paid. In Missouri, suicide is no defense to
-						payment of benefits unless the Company can show that the insured
-						intended suicide at the time of application for coverage.
-					</p>
-					<p>Transamerica Life Insurance Company: 4333 Edgewood Road NE,
-						Cedar Rapids, IA 52499.</p>
-					<p>
-						<strong>Transamerica Life Insurance Company -&nbsp;</strong>TransACE&Acirc;&reg;
-						is a non-participating flexible-premium universal life insurance
-						policy issued by Transamerica Life Insurance Company, Cedar
-						Rapids, IA 52499 (Policy Form #1-12611107 (CVAT), Group
-						Certificate #2-72336107 (CVAT) for certificates issued under a
-						group policy issued to the Rhode Island National Consumer
-						Protection Trust). Policy form and number may vary, and this
-						policy may not be available in all jurisdictions. Insurance
-						eligibility and premiums are subject to underwriting. In most
-						states, in the event of suicide during the first two policy years,
-						death benefits are limited only to the return of premiums paid. In
-						Missouri, suicide is no defense to payment of benefits unless the
-						Company can show that the insured intended suicide at the time of
-						application for coverage.
-					</p>
-					<p>Transamerica Life Insurance Company: 4333 Edgewood Road NE,
-						Cedar Rapids, IA 52499.</p>
-					<p>
-						<strong>Transamerica Financial Life Insurance Company
-							-&nbsp;</strong>Trendsetter&Acirc;&reg; Super 10, Super 15, Super 20,
-						Super 25, and Super 30 (Policy Form No. 3-306 38-108, 3-305
-						38-108, 3-304 38-108, 3-303 38-108, and 3-334 38-108) are term
-						life insurance policies issued by Transamerica Financial Life
-						Insurance Company, Purchase, NY 10577.&nbsp;<strong>Premiums
-							increase annually starting in year 11 for the 10-year policy, in
-							year 16 for the 15-year policy, in year 21 for the 20-year
-							policy, in year 26 for the 25-year policy, and in year 31 for the
-							30-year policy</strong><em>.</em>&nbsp;Policy is available only in New
-						York. Insurance eligibility and premiums are subject to
-						underwriting. In the event of suicide during the first two policy
-						years, death benefits are limited only to the return of premiums
-						paid.
-					</p>
-					<p>Transamerica Financial Life Insurance Company: 4333 Edgewood
-						Road NE, Cedar Rapids, IA 52499.</p>
+                        <strong>Transamerica Life Insurance Company -&nbsp;</strong>Trendsetter® Super Series are term life insurance policies issued by Transamerica Life Insurance Company, Cedar Rapids, IA and in New York by Transamerica Financial Life Insurance Company, Harrison, NY. Policy Forms ICC16 TL22, TL22, 1-322 11-107, 1-306 11-107, 1-305 11-107, 1-304 11-107, 1-303 11-107, or 1-334 11-107 issued by Transamerica Life Insurance Company and 3-306 38-111, 3-305 38-111, 3-304 38-111, 3-303 38-111, or 3-334 38-111 issued by Transamerica Financial Life Insurance Company. Premiums increase annually for Trendsetter Super YRT, and beginning in year 11 for the 10- year policy, in year 16 for the 15-year policy, in year 21 for the 20-year policy, in year 26 for the 25-year policy, and in year 31 for the 30-year policy. Policy forms and numbers may vary, and these policies and the riders may not be available in all jurisdictions. Insurance eligibility and premiums are subject to underwriting. In most states, in the event of suicide during the first two policy years, death benefits are limited only to the return of premiums paid.
+                    </p>
+                    <p>
+                        Transamerica Financial Life Insurance Company is authorized to conduct business in New York. Transamerica Life Insurance Company is authorized to conduct business in all other states. State variations may apply.
+                    </p>
+                    <p>
+                        As a highly fit person, you may qualify for preferred plus class coverage. However, this is non-binding prior to your application.
+                    </p>
+                    <p>
+                        No quotes are final until underwriting is completed.  Other underwriting classes, face amounts and payment modes are available.  Premiums will be lower if paid annually.  Rates subject to change without notice.
+                    </p>
+                    <p>
+                        The recommended coverage amount is determined by Two River Agency. Two River Agency is an independent contractor representing Transamerica Life Insurance Company and Transamerica Financial Life Insurance Company.
+                    </p>
 					<p>
 						<strong>United States Life Insurance Company</strong>&nbsp;<strong>-&nbsp;</strong>Select-a-Term
 						(Form #07007)- 10-, 12-, 15-, 16-, 17-, 18-, 19-, 20-, 21-, 22-,
@@ -613,6 +553,9 @@
 			</div>
 		</div>
 	</section>
+	<div id="ta-code">
+	    <small>MLC113117</small>
+	</div>
 	<footer>
 		<%@include file="footer.jsp"%>
 	</footer>

@@ -391,8 +391,11 @@
 		        </form>
 		    </div>
 		    <div id="legal_policy">
-		    	<a href="legalInformation.php">Legal Policy <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-		    </div>
+                <a href="policyForms.do">Important Policy Information <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+            <div id="ta-code">
+                <small>MLC112117</small>
+            </div>
 	    </div>
 	</section>
 	<section id="range_sliders">

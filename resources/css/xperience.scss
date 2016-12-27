@@ -75,6 +75,14 @@ body {
             display: none;
         }
     }
+    div#ta-code {
+        padding: 0 8px 5px;
+        background: $grey;
+        small {
+            font-size: 12px;
+            color: $lightgrey;
+        }
+    }
     div.background-wrap {
         position: relative;
         background-repeat: no-repeat;
@@ -880,7 +888,7 @@ body {
             }
         }
         &.main-section {
-            padding: 100px 0;
+            padding: 125px 0;
             div.overlay {
                 background: $grey !important;
             }
@@ -1529,7 +1537,10 @@ body {
         &#quote-page {
             padding: 150px 0;
             @media (max-width: 991px) {
-                padding: 100px 0;
+                padding: 100px 0 150px;
+            }
+            @media (max-width: 729px) {
+                padding: 100px 0 90px;
             }
             @media (max-width: 503px) {
                 padding: 100px 0 175px;
@@ -1924,8 +1935,9 @@ body {
                         order: 2;
                     }
                     a {
-                        letter-spacing: .1px;
-                        color: $lightgrey;
+                        font-size: 20px;
+                        letter-spacing: .01em;
+                        color: white;
 
                         @include Lato();
                         i.fa {
@@ -1933,6 +1945,12 @@ body {
                             padding-left: 3px;
                             transform: translateY(2px);
                         }
+                    }
+                }
+                div#ta-code {
+                    padding-left: 0;
+                    @media (max-width: 991px) {
+                        order: 4;
                     }
                 }
             }

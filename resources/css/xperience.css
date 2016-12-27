@@ -38,6 +38,12 @@ body {
     background: #303032; }
     body form#original-quote-form div.overlay {
       display: none; }
+  body div#ta-code {
+    padding: 0 8px 5px;
+    background: #303032; }
+    body div#ta-code small {
+      font-size: 12px;
+      color: #9b9b9b; }
   body div.background-wrap {
     position: relative;
     background-repeat: no-repeat;
@@ -746,7 +752,7 @@ body {
           body section#red-banner p {
             font-size: 14px; } }
     body section.main-section {
-      padding: 100px 0; }
+      padding: 125px 0; }
       body section.main-section div.overlay {
         background: #303032 !important; }
       body section.main-section div.container div.row div.margin-bottom-m {
@@ -1270,7 +1276,10 @@ body {
       padding: 150px 0; }
       @media (max-width: 991px) {
         body section#quote-page {
-          padding: 100px 0; } }
+          padding: 100px 0 150px; } }
+      @media (max-width: 729px) {
+        body section#quote-page {
+          padding: 100px 0 90px; } }
       @media (max-width: 503px) {
         body section#quote-page {
           padding: 100px 0 175px; } }
@@ -1667,8 +1676,9 @@ body {
                   -ms-flex-order: 2;
                       order: 2; } }
           body section#quote-page div.container div#legal_policy a {
-            letter-spacing: .1px;
-            color: #9b9b9b;
+            font-size: 20px;
+            letter-spacing: .01em;
+            color: white;
             font-family: Lato, 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
             font-weight: normal;
             font-style: normal;
@@ -1678,6 +1688,13 @@ body {
               padding-left: 3px;
               -webkit-transform: translateY(2px);
                       transform: translateY(2px); }
+        body section#quote-page div.container div#ta-code {
+          padding-left: 0; }
+          @media (max-width: 991px) {
+            body section#quote-page div.container div#ta-code {
+              -webkit-box-ordinal-group: 5;
+                  -ms-flex-order: 4;
+                      order: 4; } }
     body section#range_sliders {
       position: fixed;
       z-index: 99;
