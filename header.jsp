@@ -132,18 +132,23 @@
     					</a>
                         <ul id="top_nav_menu">
                             <li>
-                                <a href="basics.do">Insurance Basics</a>
-                            </li>
-                            <li>
-                                <a href="misconceptions.do">12 Common Misconceptions</a>
-                            </li>
-                            <li>
                                 <a href="http://blog.mylifecovered.net/">Blog</a>
                             </li>
                         </ul>
                         <a href="#" id="open_menu">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                         </a>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/MyLifeCovered/" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/mylifecovered/" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://feeds.feedburner.com/MyLifeCovered" target="_blank">
+                                <i class="fa fa-rss" aria-hidden="true"></i>
+                            </a>
+                        </div>
                         <a href="#" id="close_menu">
                             <i class="fa fa-times" aria-hidden="true"></i>
                         </a>
