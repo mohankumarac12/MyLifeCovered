@@ -1114,6 +1114,7 @@ body {
                                 opacity: 0;
                                 &.active {
                                     z-index: 10;
+                                    transition-delay: .5s;
                                     opacity: 1;
                                 }
                                 &.last-active {
@@ -1668,6 +1669,7 @@ body {
                             margin-bottom: 20px;
                         }
                         &.active {
+                            transition-delay: .5s !important;
                             border-top-color: $red;
                             background: $midgrey !important;
                         }

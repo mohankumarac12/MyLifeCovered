@@ -413,17 +413,15 @@ $(document).ready(function() {
         bgd_active.addClass('last-active');
         txt_active.addClass('last-active');
 
-        setTimeout(function() {
-            txt_next.addClass('active');
-            $('#landing_tiles a#' + boxMatch).addClass('active');
-        }, 500);
         bgd_next.addClass('active');
+        txt_next.addClass('active');
+
         bgd_active.removeClass('active last-active');
         txt_active.removeClass('active last-active');
 
         var boxMatch = bgd_next.data('tile');
-
         $('#landing_tiles a').removeClass('active');
+        $('#landing_tiles a#' + boxMatch).addClass('active');
     }
 
     function slideSwitchPrev() {
@@ -446,17 +444,15 @@ $(document).ready(function() {
         bgd_active.addClass('last-active');
         txt_active.addClass('last-active');
 
-        setTimeout(function() {
-            txt_prev.addClass('active');
-            $('#landing_tiles a#' + boxMatch).addClass('active');
-        }, 500);
         bgd_prev.addClass('active');
+        txt_prev.addClass('active');
+
         bgd_active.removeClass('active last-active');
         txt_active.removeClass('active last-active');
 
         var boxMatch = bgd_prev.data('tile');
-
         $('#landing_tiles a').removeClass('active');
+        $('#landing_tiles a#' + boxMatch).addClass('active');
     }
     var int = setInterval(slideSwitchNext, 8500);
 
