@@ -431,15 +431,16 @@ body {
 
                             order: 2;
                             @media (max-width: 550px) {
-                                position: fixed;
-                                top: auto;
-                                right: 0;
-                                bottom: 0;
-                                left: 0;
-                                width: 100%;
-                                padding: 10px 0;
-                                border-top: 1px solid $darkgrey;
-                                background: $midgrey;
+                                display: none;
+                                // position: fixed;
+                                // top: auto;
+                                // right: 0;
+                                // bottom: 0;
+                                // left: 0;
+                                // width: 100%;
+                                // padding: 10px 0;
+                                // border-top: 1px solid $darkgrey;
+                                // background: $midgrey;
                             }
                             a {
                                 @media (max-width: 550px) {
@@ -2384,7 +2385,7 @@ body {
                     &.social-icons {
                         margin: 40px 0 30px;
                         @media (max-width: 550px) {
-                            display: none;
+                            // display: none;
                         }
                     }
                     &.text-right {
@@ -2393,7 +2394,7 @@ body {
                         margin: 0 auto;
                         text-align: center;
                         @media (max-width: 550px) {
-                            margin-bottom: 55px;
+                            // margin-bottom: 55px;
                         }
                         a.main_logo {
                             display: block;
